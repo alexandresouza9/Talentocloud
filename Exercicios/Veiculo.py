@@ -6,11 +6,11 @@ while opcao!= 0:
     if opcao == 1:
         print("TER 18 ANOS E A CNH A ")
     if opcao == 2:
-        print("TER 18 ANOS E A CNH B")
+        print("TER 18 ANOS E A CNH B ")
     if opcao == 3:
-        print("TER 18 ANOS E A CNH C")
+        print("TER 18 ANOS E A CNH C ")
     elif opcao == 4:
-        print("TER 18 ANOS E A CNH D")
+        print("TER 18 ANOS E A CNH D ")
 
 
 
