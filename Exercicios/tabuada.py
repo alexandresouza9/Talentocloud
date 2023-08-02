@@ -1,3 +1,5 @@
+#Exercício da aula 5 tabuada
+
 i = 0
 tabuada = int(input("Digite um valor para calcular sua tabuada"))
 while i <= 10:
