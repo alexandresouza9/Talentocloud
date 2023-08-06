@@ -4,26 +4,28 @@
 # Caso o usuário não digite um número ou apareça um inválido no campo do ano, o sistema informará 
 # o erro e continuará perguntando até que um valor correto seja preenchido.
 
+nomeCompleto = input("Digite seu nome?")
 
-nomeCompleto = input("Qual seu nome?")
-print(nomeCompleto)
+identificacao = True
 
-anoNascimento = int(input("Digite o seu ano de nascimento"))
-idade = 2021 - anoNascimento
-
-
-while(anoNascimento == False):
-    print("Digite um ano dentro o intervalo")
+while(identificacao == True):
+    print("Digeti seu ano de nascimento")
     try:
-        anoNascimento = int(input())
-        if (anoNascimento > 1922) and (anoNascimento < 2021):
-            anoNascimento = True
-            print("Seu nome é:", nomeCompleto, "sua idade é:", anoNascimento, "anos")
-            #print("Você digitou um ano correto!")
+        anoNacimento = int(input())
+        if (anoNacimento < 1922) or (anoNacimento > 2021):
+            print("Digite um ano de nascimento entre 1922 e 2021")
         else:
-            print("Você digitou um ano fora do intervalo")
+            idade = 2021 - anoNacimento
+            print("Seu nome é:", nomeCompleto, "sua idade é:", idade, "anos")
+
+            identificacao = False
     except:
-        print("Caracter inválido, por favor digite um ano do seu nascimento")
+        print("Digite o ano do seu nascimento em números e dentro do intervalo por favor")
+
+    
+
+
+
     
 
  
