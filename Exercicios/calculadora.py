@@ -15,6 +15,7 @@ if operador == "+":
     numero2 = 10
     numero3 = 30
     resultado = numero1 + numero2 + numero3
+    
     print(resultado)
     
 elif operador == "-":
@@ -30,7 +31,9 @@ elif operador == "*":
 elif operador == "/":
     numero2 = 10
     numero3 = 50
+ 
     resultado = (numero3 + numero2) / numero1
+    
     print(resultado)
 else:
     print("Operador invalido")
