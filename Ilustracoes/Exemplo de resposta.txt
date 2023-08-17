@@ -1,0 +1,17 @@
+Resposta:
+
+1. <header>            9. <footer>
+
+2. <main>               10. <ul>
+
+3. <nav>                  11. <li>
+
+4. <img>                 12. <form>
+
+5. <h1>                   13. <label>
+
+6. <h2>                   14. <input>
+
+7. <p>                     15. <select>
+
+8. <a>                     16. <button>*
