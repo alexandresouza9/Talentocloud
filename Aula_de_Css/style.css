@@ -26,3 +26,34 @@ nav ul li {
   padding-left: 16px;
   list-style-type: none;
 }
+
+main {
+  color: white;
+  background-color: aqua;
+  width: 900px;
+  margin: 0 auto;
+}
+h1 { 
+  font-size: 3rem;
+  padding-left: 20px;
+}
+ h2 {
+font-size: 1.5rem;
+padding-left: 20px;
+ }
+
+ section{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+ }
+
+ section div{
+   background: url('./img/bg_laranja.jpg');
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   padding: 20px;
+   border-radius: 10px;
+ }
+
