@@ -24,5 +24,7 @@ document.addEventListener("keyup", (e) => {
         if(e.code == "Digit1"){
             linkPerfilDados.click()
         }
+    }else if(e.code == "Digit1"){
+        navPerfil.style.display = "block"
     }
 })
