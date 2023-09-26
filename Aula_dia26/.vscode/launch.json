@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///Users/alexandresouza/Documents/GitHub/BootcampSantander/Talentocloud/Exercicios/HTML/Recife/index.html",
+            "url": "file:///Users/alexandresouza/Documents/GitHub/BootcampSantander/Talentocloud/Aula_dia26/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

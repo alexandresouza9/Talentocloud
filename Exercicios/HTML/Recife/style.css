@@ -1,3 +1,6 @@
-a{
-    display: block;
+span {
+    background-color: rgb(106, 90, 205);
+    background-color: blueviolet;
+    font-size: 28px;
+    color: rgb(255, 183, 0);
 }
